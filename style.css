@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+
+}
+.container{ /*მთავარი კონტ.*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.box1,  .box3{ /*პირველი და მესამე ბარათი*/
+    width: 360px;
+    height: 580px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-left: 30px;
+}
+.box2{ /*მეორე ბარათი*/
+    width: 360px;
+    height: 580px;
+    border-radius: 4px;
+    background-color: #000000;
+    margin-left: 30px;
+}
+
+.img1, .img3{  /*მთავარი ფოტოები*/
+    width: 360px;
+    height: 260px;
+}
+
+.img2{ /* მთ.ფოტო */
+    width: 360px;
+}
+
+.container1{ /*პირველი კონტეინერის ტექსტები*/
+    margin-left: 30px;
+    margin-top: 26px;
+}
+.text1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #4cd964;
+}
+.text2{ /*პირველი კონტ.ტექსტი*/
+    font-weight: 600;
+    font-size: 24px;
+    color: #1b1b1b;
+}
+.text3{ /*პირველი კონტ.ტექსტი*/
+    font-weight: 400;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.hr1{ /*პირველი კონტ.ტექსტი*/
+    margin-top: 48px;
+    border: 1px solid #EAEAEA;
+}
+.icons{ 
+    display: flex;
+}
+
+.icon1{  /*icon-ფოტო*/
+    margin-left: 30px;
+    margin-top: 21px;
+    width: 20px;
+    height: 20px;
+}
+.icon2{ /*icon-ფოტო*/
+    width: 20px;
+    height: 12px;
+    margin-top: 24px;
+    margin-left: 36.5px;
+}
+
+.icon3{ /*icon-ფოტო*/
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 115px;
+}
+
+.number, .number2{ 
+    font-weight: 400;
+    font-size: 14px;
+    color: #9B9B9B;
+    padding: 7px 7px;
+}
+
+
+/*მეორე კონტეინერის მონაცემები*/
+
+.text4{
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-top: -310px;
+    margin-left: 30px;
+}
+.container2{ /*ტექსტების კონტ*/
+    margin-left: 30px;
+    margin-top: 250px;
+}
+
+.text5{
+    font-weight: 600;
+    font-size: 36px;
+    color: #ffffff;
+    
+}
+.text6{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: -13px;
+}
+
+.hr2{
+    margin-top: 45px;
+    border: 1px solid #eaeaea;
+    opacity: 20%;
+}
+
+/*მესამე კონტ.მონაცემები*/
+.container3{
+    margin-left: 30.14px;
+    margin-top: 18.5px;
+}
+.text7{
+    font-weight: 500;
+    font-size: 14px;
+    color: #4cd964;
+}
+.text8{
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B1B1B;
+}
+.text9{
+    font-weight: 400;
+    font-size: 16px;
+    color: #9B9B9B;
+}
+.hr3{
+    margin-top: 35px;
+    border: 1px solid #eaeaea;
+}
+
+
+
+
+
+
+
+
